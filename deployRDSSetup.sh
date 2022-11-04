@@ -27,3 +27,4 @@ sudo systemctl restart apache2
 sudo chmod 777 -R /var/www/html
 cd ..
 cd /var/www/html
+git clone git clone -b rds https://github.com/SmithaVerity/IMS.git
