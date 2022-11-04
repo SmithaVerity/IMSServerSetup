@@ -25,4 +25,5 @@ sudo rm /etc/apache2/apache2_old.conf
 sudo systemctl restart apache2
 
 sudo chmod 777 -R /var/www/html
+cd ..
 cd /var/www/html
