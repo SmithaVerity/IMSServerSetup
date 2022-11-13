@@ -11,3 +11,10 @@ cd IMSServerSetup/
 sh deployServer.sh
 ```
 
+
+To connect to rds db
+```
+git clone -b rds https://github.com/SmithaVerity/IMSServerSetup.git
+cd IMSServerSetup/
+sh deployServer.sh
+```
