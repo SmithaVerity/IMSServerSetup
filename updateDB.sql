@@ -231,7 +231,11 @@ INSERT INTO `vendor` (`vendorID`, `fullName`, `email`, `mobile`, `phone2`, `addr
 --
 -- Indexes for dumped tables
 --
-
+CREATE TABLE cron_table
+( id serial primary key
+, number varchar(12) not null
+, dt datetime not null
+);
 --
 -- Indexes for table `customer`
 --
